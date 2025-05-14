@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Material Details</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+  <h1>Material Details</h1>
+  <div id="details"></div>
+  <button id="downloadBtn">Download JSON</button>
+  <br><br>
+  <a href="/">← Back to Table</a>
+
+  <script>
+    fetch('/api/materials')
+      .then(response => response.json())
+      .then(data => {
+        const materialId = window.location.pathname.split('/').pop();
+        const material = data.find(m => m.material_id === materialId);
+
+        if (!material) {
+          document.getElementById('details').innerText = 'Material not found.';
+          return;
+        }
+
+        const detailsDiv = document.getElementById('details');
+        const table = document.createElement('table');
+
+        for (const key in material) {
+          const row = document.createElement('tr');
+          row.innerHTML = `<td><strong>${key}</strong></td><td>${material[key]}</td>`;
+          table.appendChild(row);
+        }
+
+        detailsDiv.appendChild(table);
+
+        document.getElementById('downloadBtn').addEventListener('click', () => {
+          const blob = new Blob([JSON.stringify(material, null, 2)], { type: 'application/json' });
+          const url = URL.createObjectURL(blob);
+          const a = document.createElement('a');
+          a.href = url;
+          a.download = `${material.material_id}.json`;
+          a.click();
+          URL.revokeObjectURL(url);
+        });
+      })
+      .catch(error => {
+        console.error('Error loading material details:', error);
+        document.getElementById('details').innerText = 'Error loading material details.';
+      });
+  </script>
+</body>
+</html>
