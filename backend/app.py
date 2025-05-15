@@ -1,10 +1,14 @@
 from flask import Flask, jsonify, render_template
 import json
+import os
 
-app = Flask(__name__) 
+app = Flask(__name__)
 
 
-with open('materials_data.json', 'r') as f:
+
+data_file = os.path.join(os.path.dirname(__file__), 'data', 'api_result.json')
+
+with open(data_file, 'r') as f:
     materials_data = json.load(f)
 
 @app.route('/')

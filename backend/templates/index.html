@@ -1,12 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="UTF-8" />
   <title>Material Table</title>
-  <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+  <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}" />
 </head>
 <body>
   <h1>Material Query</h1>
+
+  <input
+    type="text"
+    id="searchInput"
+    autocomplete="off"
+  />
+  <button onclick="performSearch()">Search</button>
+  <button onclick="resetTable()">Reset</button>
+
   <table id="materials-table">
     <thead>
       <tr>
@@ -20,34 +29,76 @@
         <th>Is Stable</th>
         <th>Is Magnetic</th>
         <th>Magnetic Ordering</th>
+        <th>Experimentally Observed</th>
       </tr>
     </thead>
     <tbody></tbody>
   </table>
 
   <script>
+    let allMaterials = [];
+
+    // Load all materials initially
     fetch('/api/materials')
-      .then(response => response.json())
-      .then(data => {
-        const tableBody = document.querySelector('#materials-table tbody');
-        data.forEach(mat => {
-          const row = document.createElement('tr');
-          row.innerHTML = `
-            <td><a href="/material/${mat.material_id}">${mat.material_id}</a></td>
-            <td>${mat.pretty_formula}</td>
-            <td>${mat.energy_above_hull}</td>
-            <td>${mat.band_gap}</td>
-            <td>${mat.formation_energy_per_atom}</td>
-            <td>${mat.total_magnetization}</td>
-            <td>${mat.symmetry}</td>
-            <td>${mat.is_stable}</td>
-            <th>${mat.is_magnetic}</td>
-            <td>${mat.magnetic_ordering || '—'}</td>
-          `;
-          tableBody.appendChild(row);
-        });
+      .then((response) => response.json())
+      .then((data) => {
+        allMaterials = data;
+        displayMaterials(allMaterials);
       })
-      .catch(err => console.error('Failed to load materials:', err));
+      .catch((err) => console.error('Failed to load materials:', err));
+
+    function displayMaterials(materials) {
+      const tableBody = document.querySelector('#materials-table tbody');
+      tableBody.innerHTML = '';
+      if (materials.length === 0) {
+        tableBody.innerHTML = '<tr><td colspan="11">No materials found.</td></tr>';
+        return;
+      }
+
+      materials.forEach((mat) => {
+        const isStable = mat.energy_above_hull < 0.05 ? 'Yes' : 'No';
+        const isMagnetic = mat.total_magnetization > 0 ? 'Yes' : 'No';
+
+        const row = document.createElement('tr');
+        row.innerHTML = `
+          <td><a href="/material/${mat.material_id}">${mat.material_id}</a></td>
+          <td>${mat.pretty_formula}</td>
+          <td>${mat.energy_above_hull.toFixed(3)}</td>
+          <td>${mat.band_gap.toFixed(3)}</td>
+          <td>${mat.formation_energy_per_atom.toFixed(3)}</td>
+          <td>${mat.total_magnetization.toFixed(3)}</td>
+          <td>${mat.space_group}</td>
+          <td>${isStable}</td>
+          <td>${isMagnetic}</td>
+          <td>${mat.magnetic_ordering || '—'}</td>
+          <td>${mat.experimentally_observed ? 'Yes' : 'No'}</td>
+        `;
+        tableBody.appendChild(row);
+      });
+    }
+
+    function performSearch() {
+      const query = document.getElementById('searchInput').value.trim().toLowerCase();
+      if (!query) {
+        displayMaterials(allMaterials);
+        return;
+      }
+
+      const filtered = allMaterials.filter((mat) => {
+        return (
+          (mat.pretty_formula && mat.pretty_formula.toLowerCase().includes(query)) ||
+          (mat.magnetic_ordering && mat.magnetic_ordering.toLowerCase().includes(query)) ||
+          (mat.material_id && mat.material_id.toLowerCase().includes(query))
+        );
+      });
+
+      displayMaterials(filtered);
+    }
+  
+    function resetTable() {
+      document.getElementById('searchInput').value = '';
+      displayMaterials(allMaterials);
+    }
   </script>
 </body>
 </html>

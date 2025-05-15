@@ -53,9 +53,8 @@ button:hover {
     color: #242222;
 }
 
-/* Add styles for links inside table if you have clickable IDs */
 a {
-    color: #aad4ff;
+    color: #00ddff;
     text-decoration: none;
 }
 
