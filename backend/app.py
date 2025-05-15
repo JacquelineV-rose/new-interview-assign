@@ -1,9 +1,9 @@
 from flask import Flask, jsonify, render_template
 import json
 
-app = Flask(__name__)  # <-- Make sure this is at the top before any routes
+app = Flask(__name__) 
 
-# Load materials data
+
 with open('materials_data.json', 'r') as f:
     materials_data = json.load(f)
 

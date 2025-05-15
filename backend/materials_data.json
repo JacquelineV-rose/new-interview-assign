@@ -5,10 +5,11 @@
         "energy_above_hull": 0.18974828500000002,
         "band_gap": 0.0,
         "formation_energy_per_atom": 0.18974828500000201,
-        "is_magnetic": false,
         "total_magnetization": 0.0001198,
         "is_stable": false,
-        "magnetic_ordering": null
+        "is_magnetic": false,
+        "magnetic_ordering": "NM",
+        "symmetry": "P1"
     },
     {
         "material_id": "mp-1120447",
@@ -16,10 +17,11 @@
         "energy_above_hull": 0.37250966749999903,
         "band_gap": 0.0,
         "formation_energy_per_atom": 0.37250966749999903,
-        "is_magnetic": false,
         "total_magnetization": 0.0,
         "is_stable": false,
-        "magnetic_ordering": null
+        "is_magnetic": false,
+        "magnetic_ordering": "NM",
+        "symmetry": "P1"
     },
     {
         "material_id": "mp-1179802",
@@ -27,10 +29,11 @@
         "energy_above_hull": 0.053649282500000006,
         "band_gap": 0.0,
         "formation_energy_per_atom": 0.053649282500000006,
-        "is_magnetic": false,
         "total_magnetization": 0.005090499999999,
         "is_stable": false,
-        "magnetic_ordering": null
+        "is_magnetic": false,
+        "magnetic_ordering": "NM",
+        "symmetry": "P1"
     },
     {
         "material_id": "mp-1180008",
@@ -38,10 +41,11 @@
         "energy_above_hull": 0.419853780833332,
         "band_gap": 1.277299999999999,
         "formation_energy_per_atom": 0.419853780833333,
-        "is_magnetic": false,
         "total_magnetization": 0.0,
         "is_stable": false,
-        "magnetic_ordering": null
+        "is_magnetic": false,
+        "magnetic_ordering": "NM",
+        "symmetry": "P1"
     },
     {
         "material_id": "mp-1180064",
@@ -49,10 +53,11 @@
         "energy_above_hull": 0.38701357199999903,
         "band_gap": 0.042300000000000004,
         "formation_energy_per_atom": 0.38701357200000003,
-        "is_magnetic": true,
         "total_magnetization": 3.9993086,
         "is_stable": false,
-        "magnetic_ordering": null
+        "is_magnetic": true,
+        "magnetic_ordering": "FM",
+        "symmetry": "P1"
     },
     {
         "material_id": "mp-1197903",
@@ -60,10 +65,11 @@
         "energy_above_hull": 1.4104997176249991,
         "band_gap": 0.07970000000000001,
         "formation_energy_per_atom": 1.4104997176249991,
-        "is_magnetic": false,
         "total_magnetization": 0.0054643,
         "is_stable": false,
-        "magnetic_ordering": null
+        "is_magnetic": false,
+        "magnetic_ordering": "NM",
+        "symmetry": "P1"
     },
     {
         "material_id": "mp-1244913",
@@ -71,10 +77,11 @@
         "energy_above_hull": 0.9942529476999981,
         "band_gap": 0.10600000000000001,
         "formation_energy_per_atom": 0.9942529476999991,
-        "is_magnetic": false,
         "total_magnetization": 2.0000505,
         "is_stable": false,
-        "magnetic_ordering": null
+        "is_magnetic": false,
+        "magnetic_ordering": "NM",
+        "symmetry": "P1"
     },
     {
         "material_id": "mp-1244924",
@@ -82,10 +89,11 @@
         "energy_above_hull": 0.183286863166667,
         "band_gap": 0.0,
         "formation_energy_per_atom": 0.183286863166667,
-        "is_magnetic": false,
         "total_magnetization": 1.9910987,
         "is_stable": false,
-        "magnetic_ordering": null
+        "is_magnetic": false,
+        "magnetic_ordering": "NM",
+        "symmetry": "P1"
     },
     {
         "material_id": "mp-1244933",
@@ -93,10 +101,11 @@
         "energy_above_hull": 0.34929145859999905,
         "band_gap": 0.0,
         "formation_energy_per_atom": 0.34929145859999905,
-        "is_magnetic": false,
         "total_magnetization": 1e-07,
         "is_stable": false,
-        "magnetic_ordering": null
+        "is_magnetic": false,
+        "magnetic_ordering": "NM",
+        "symmetry": "P1"
     },
     {
         "material_id": "mp-1244953",
@@ -104,10 +113,11 @@
         "energy_above_hull": 0.09572362820000001,
         "band_gap": 0.0,
         "formation_energy_per_atom": 0.09572362819999901,
-        "is_magnetic": false,
         "total_magnetization": 0.0,
         "is_stable": false,
-        "magnetic_ordering": null
+        "is_magnetic": false,
+        "magnetic_ordering": "NM",
+        "symmetry": "P1"
     },
     {
         "material_id": "mp-1244964",
@@ -115,10 +125,11 @@
         "energy_above_hull": 0.9345966745999991,
         "band_gap": 0.0724,
         "formation_energy_per_atom": 0.9345966746000001,
-        "is_magnetic": true,
         "total_magnetization": 2.0008597,
         "is_stable": false,
-        "magnetic_ordering": null
+        "is_magnetic": true,
+        "magnetic_ordering": "FM",
+        "symmetry": "P1"
     },
     {
         "material_id": "mp-1244971",
@@ -126,10 +137,11 @@
         "energy_above_hull": 0.31675151760000003,
         "band_gap": 0.0030999999999990003,
         "formation_energy_per_atom": 0.31675151759999903,
-        "is_magnetic": false,
         "total_magnetization": 0.0,
         "is_stable": false,
-        "magnetic_ordering": null
+        "is_magnetic": false,
+        "magnetic_ordering": "NM",
+        "symmetry": "P1"
     },
     {
         "material_id": "mp-1244987",
@@ -137,10 +149,11 @@
         "energy_above_hull": 0.058374756800001,
         "band_gap": 0.0,
         "formation_energy_per_atom": 0.058374756800000004,
-        "is_magnetic": false,
         "total_magnetization": 0.0,
         "is_stable": false,
-        "magnetic_ordering": null
+        "is_magnetic": false,
+        "magnetic_ordering": "NM",
+        "symmetry": "P1"
     },
     {
         "material_id": "mp-1244990",
@@ -148,10 +161,11 @@
         "energy_above_hull": 0.36627406770000004,
         "band_gap": 0.0,
         "formation_energy_per_atom": 0.36627406769999904,
-        "is_magnetic": false,
         "total_magnetization": 6e-06,
         "is_stable": false,
-        "magnetic_ordering": null
+        "is_magnetic": false,
+        "magnetic_ordering": "NM",
+        "symmetry": "P1"
     },
     {
         "material_id": "mp-1245006",
@@ -159,10 +173,11 @@
         "energy_above_hull": 0.141383983866665,
         "band_gap": 0.0,
         "formation_energy_per_atom": 0.141383983866667,
-        "is_magnetic": false,
         "total_magnetization": 0.0038697999999990004,
         "is_stable": false,
-        "magnetic_ordering": null
+        "is_magnetic": false,
+        "magnetic_ordering": "NM",
+        "symmetry": "P1"
     },
     {
         "material_id": "mp-1245041",
@@ -170,10 +185,11 @@
         "energy_above_hull": 0.310314400899999,
         "band_gap": 0.027599999999999004,
         "formation_energy_per_atom": 0.310314400899999,
-        "is_magnetic": false,
         "total_magnetization": 0.0,
         "is_stable": false,
-        "magnetic_ordering": null
+        "is_magnetic": false,
+        "magnetic_ordering": "NM",
+        "symmetry": "P1"
     },
     {
         "material_id": "mp-1245067",
@@ -181,10 +197,11 @@
         "energy_above_hull": 0.1143086865,
         "band_gap": 0.0,
         "formation_energy_per_atom": 0.11430868649999901,
-        "is_magnetic": false,
         "total_magnetization": 0.0,
         "is_stable": false,
-        "magnetic_ordering": null
+        "is_magnetic": false,
+        "magnetic_ordering": "NM",
+        "symmetry": "P1"
     },
     {
         "material_id": "mp-1245093",
@@ -192,10 +209,11 @@
         "energy_above_hull": 0.055068915200001005,
         "band_gap": 0.0,
         "formation_energy_per_atom": 0.055068915200000006,
-        "is_magnetic": false,
         "total_magnetization": 0.0,
         "is_stable": false,
-        "magnetic_ordering": null
+        "is_magnetic": false,
+        "magnetic_ordering": "NM",
+        "symmetry": "P1"
     },
     {
         "material_id": "mp-1245108",
@@ -203,10 +221,11 @@
         "energy_above_hull": 0.2794554973,
         "band_gap": 0.0,
         "formation_energy_per_atom": 0.279455497300001,
-        "is_magnetic": true,
         "total_magnetization": 205.3566831,
         "is_stable": false,
-        "magnetic_ordering": null
+        "is_magnetic": true,
+        "magnetic_ordering": "FiM",
+        "symmetry": "P1"
     },
     {
         "material_id": "mp-1245129",
@@ -214,10 +233,11 @@
         "energy_above_hull": 0.0947504108,
         "band_gap": 0.0,
         "formation_energy_per_atom": 0.094750410799999,
-        "is_magnetic": false,
         "total_magnetization": 4e-07,
         "is_stable": false,
-        "magnetic_ordering": null
+        "is_magnetic": false,
+        "magnetic_ordering": "NM",
+        "symmetry": "P1"
     },
     {
         "material_id": "mp-1245152",
@@ -225,10 +245,11 @@
         "energy_above_hull": 0.1020815508,
         "band_gap": 0.0,
         "formation_energy_per_atom": 0.102081550799999,
-        "is_magnetic": false,
         "total_magnetization": 0.0,
         "is_stable": false,
-        "magnetic_ordering": null
+        "is_magnetic": false,
+        "magnetic_ordering": "NM",
+        "symmetry": "P1"
     },
     {
         "material_id": "mp-1245164",
@@ -236,10 +257,11 @@
         "energy_above_hull": 0.138331885266666,
         "band_gap": 0.006299999999999001,
         "formation_energy_per_atom": 0.138331885266666,
-        "is_magnetic": false,
         "total_magnetization": 0.0006441999999990001,
         "is_stable": false,
-        "magnetic_ordering": null
+        "is_magnetic": false,
+        "magnetic_ordering": "NM",
+        "symmetry": "P1"
     },
     {
         "material_id": "mp-1245170",
@@ -247,10 +269,11 @@
         "energy_above_hull": 0.169614288666666,
         "band_gap": 0.0,
         "formation_energy_per_atom": 0.169614288666666,
-        "is_magnetic": false,
         "total_magnetization": 0.0044246,
         "is_stable": false,
-        "magnetic_ordering": null
+        "is_magnetic": false,
+        "magnetic_ordering": "NM",
+        "symmetry": "P1"
     },
     {
         "material_id": "mp-1245184",
@@ -258,10 +281,11 @@
         "energy_above_hull": 0.0488518927,
         "band_gap": 0.0,
         "formation_energy_per_atom": 0.0488518927,
-        "is_magnetic": false,
         "total_magnetization": 0.0,
         "is_stable": false,
-        "magnetic_ordering": null
+        "is_magnetic": false,
+        "magnetic_ordering": "NM",
+        "symmetry": "P1"
     },
     {
         "material_id": "mp-1245190",
@@ -269,10 +293,11 @@
         "energy_above_hull": 1.014946403599999,
         "band_gap": 0.0,
         "formation_energy_per_atom": 1.014946403599999,
-        "is_magnetic": true,
         "total_magnetization": 4.1176063,
         "is_stable": false,
-        "magnetic_ordering": null
+        "is_magnetic": true,
+        "magnetic_ordering": "FM",
+        "symmetry": "P1"
     },
     {
         "material_id": "mp-1245242",
@@ -280,10 +305,11 @@
         "energy_above_hull": 0.31691021610000003,
         "band_gap": 0.0,
         "formation_energy_per_atom": 0.31691021609999803,
-        "is_magnetic": false,
         "total_magnetization": 1e-07,
         "is_stable": false,
-        "magnetic_ordering": null
+        "is_magnetic": false,
+        "magnetic_ordering": "NM",
+        "symmetry": "P1"
     },
     {
         "material_id": "mp-1245266",
@@ -291,10 +317,11 @@
         "energy_above_hull": 0.052315974800000005,
         "band_gap": 0.0,
         "formation_energy_per_atom": 0.052315974800000005,
-        "is_magnetic": false,
         "total_magnetization": 2e-07,
         "is_stable": false,
-        "magnetic_ordering": null
+        "is_magnetic": false,
+        "magnetic_ordering": "NM",
+        "symmetry": "P1"
     },
     {
         "material_id": "mp-1245307",
@@ -302,10 +329,11 @@
         "energy_above_hull": 0.1075495411,
         "band_gap": 0.0,
         "formation_energy_per_atom": 0.10754954109999901,
-        "is_magnetic": false,
         "total_magnetization": 0.0,
         "is_stable": false,
-        "magnetic_ordering": null
+        "is_magnetic": false,
+        "magnetic_ordering": "NM",
+        "symmetry": "P1"
     },
     {
         "material_id": "mp-1245320",
@@ -313,10 +341,11 @@
         "energy_above_hull": 0.155102003566666,
         "band_gap": 0.0,
         "formation_energy_per_atom": 0.155102003566667,
-        "is_magnetic": false,
         "total_magnetization": 0.0153928,
         "is_stable": false,
-        "magnetic_ordering": null
+        "is_magnetic": false,
+        "magnetic_ordering": "NM",
+        "symmetry": "P1"
     },
     {
         "material_id": "mp-1403870",
@@ -324,10 +353,11 @@
         "energy_above_hull": 1.250752009999999,
         "band_gap": 0.0,
         "formation_energy_per_atom": 1.250752009999999,
-        "is_magnetic": false,
         "total_magnetization": 6e-07,
         "is_stable": false,
-        "magnetic_ordering": null
+        "is_magnetic": false,
+        "magnetic_ordering": "NM",
+        "symmetry": "P1"
     },
     {
         "material_id": "mp-632401",
@@ -335,10 +365,11 @@
         "energy_above_hull": 0.29153570833333303,
         "band_gap": 0.0,
         "formation_energy_per_atom": 0.29153570833333303,
-        "is_magnetic": false,
         "total_magnetization": 0.0,
         "is_stable": false,
-        "magnetic_ordering": null
+        "is_magnetic": false,
+        "magnetic_ordering": "NM",
+        "symmetry": "P1"
     },
     {
         "material_id": "mp-640416",
@@ -346,10 +377,11 @@
         "energy_above_hull": 0.05672780374999901,
         "band_gap": 0.0,
         "formation_energy_per_atom": 0.05672780374999901,
-        "is_magnetic": false,
         "total_magnetization": 0.0140471,
         "is_stable": false,
-        "magnetic_ordering": null
+        "is_magnetic": false,
+        "magnetic_ordering": "NM",
+        "symmetry": "P1"
     },
     {
         "material_id": "mp-644693",
@@ -357,10 +389,11 @@
         "energy_above_hull": 0.41511927999999904,
         "band_gap": 0.0,
         "formation_energy_per_atom": 0.41511927999999904,
-        "is_magnetic": false,
         "total_magnetization": 0.0010976,
         "is_stable": false,
-        "magnetic_ordering": null
+        "is_magnetic": false,
+        "magnetic_ordering": "NM",
+        "symmetry": "P1"
     },
     {
         "material_id": "mp-656615",
@@ -368,10 +401,11 @@
         "energy_above_hull": 0.022942533749999,
         "band_gap": 0.0,
         "formation_energy_per_atom": 0.022942533749999,
-        "is_magnetic": false,
         "total_magnetization": 0.0006242,
         "is_stable": false,
-        "magnetic_ordering": null
+        "is_magnetic": false,
+        "magnetic_ordering": "NM",
+        "symmetry": "P1"
     },
     {
         "material_id": "mp-676011",
@@ -379,10 +413,11 @@
         "energy_above_hull": 0.44703532249999905,
         "band_gap": 0.0,
         "formation_energy_per_atom": 0.44703532249999905,
-        "is_magnetic": false,
         "total_magnetization": 0.000112899999999,
         "is_stable": false,
-        "magnetic_ordering": null
+        "is_magnetic": false,
+        "magnetic_ordering": "NM",
+        "symmetry": "P1"
     },
     {
         "material_id": "mp-988210",
@@ -390,10 +425,11 @@
         "energy_above_hull": 1.9596229937499992,
         "band_gap": 0.0,
         "formation_energy_per_atom": 1.9596229937499992,
-        "is_magnetic": false,
         "total_magnetization": 0.0020746,
         "is_stable": false,
-        "magnetic_ordering": null
+        "is_magnetic": false,
+        "magnetic_ordering": "NM",
+        "symmetry": "P1"
     },
     {
         "material_id": "mp-1056079",
@@ -401,10 +437,11 @@
         "energy_above_hull": 1.982934489999999,
         "band_gap": 0.0,
         "formation_energy_per_atom": 1.982934489999999,
-        "is_magnetic": true,
         "total_magnetization": 0.11089979999999901,
         "is_stable": false,
-        "magnetic_ordering": null
+        "is_magnetic": true,
+        "magnetic_ordering": "FM",
+        "symmetry": "P2/m"
     },
     {
         "material_id": "mp-1056831",
@@ -412,10 +449,11 @@
         "energy_above_hull": 1.311098234999999,
         "band_gap": 0.0,
         "formation_energy_per_atom": 1.311098234999999,
-        "is_magnetic": false,
         "total_magnetization": 0.001453399999999,
         "is_stable": false,
-        "magnetic_ordering": null
+        "is_magnetic": false,
+        "magnetic_ordering": "NM",
+        "symmetry": "P2/m"
     },
     {
         "material_id": "mp-1178801",
@@ -423,10 +461,11 @@
         "energy_above_hull": 1.198139206500002,
         "band_gap": 0.0,
         "formation_energy_per_atom": 1.198139206500002,
-        "is_magnetic": false,
         "total_magnetization": 0.0,
         "is_stable": false,
-        "magnetic_ordering": null
+        "is_magnetic": false,
+        "magnetic_ordering": "NM",
+        "symmetry": "P2/m"
     },
     {
         "material_id": "mp-1182029",
@@ -434,10 +473,11 @@
         "energy_above_hull": 1.002409142499999,
         "band_gap": 0.0,
         "formation_energy_per_atom": 1.002409142499999,
-        "is_magnetic": false,
         "total_magnetization": 0.0,
         "is_stable": false,
-        "magnetic_ordering": null
+        "is_magnetic": false,
+        "magnetic_ordering": "NM",
+        "symmetry": "P2/m"
     },
     {
         "material_id": "mp-1191581",
@@ -445,10 +485,11 @@
         "energy_above_hull": 1.1811169156,
         "band_gap": 0.0,
         "formation_energy_per_atom": 1.181116915599996,
-        "is_magnetic": false,
         "total_magnetization": 0.0003679,
         "is_stable": false,
-        "magnetic_ordering": null
+        "is_magnetic": false,
+        "magnetic_ordering": "NM",
+        "symmetry": "P2/m"
     },
     {
         "material_id": "mp-43",
@@ -456,10 +497,11 @@
         "energy_above_hull": 0.089671224666673,
         "band_gap": 0.0,
         "formation_energy_per_atom": 0.08967122466668401,
-        "is_magnetic": false,
         "total_magnetization": 0.000103399999999,
         "is_stable": false,
-        "magnetic_ordering": null
+        "is_magnetic": false,
+        "magnetic_ordering": "NM",
+        "symmetry": "P4_2nm"
     },
     {
         "material_id": "mp-1067758",
@@ -467,10 +509,11 @@
         "energy_above_hull": 0.08585941499999401,
         "band_gap": 0.0,
         "formation_energy_per_atom": 0.08585941499999401,
-        "is_magnetic": false,
         "total_magnetization": 0.0001712,
         "is_stable": false,
-        "magnetic_ordering": null
+        "is_magnetic": false,
+        "magnetic_ordering": "NM",
+        "symmetry": "P2_1/m"
     },
     {
         "material_id": "mp-1179605",
@@ -478,10 +521,11 @@
         "energy_above_hull": 0.050482344999998006,
         "band_gap": 0.0,
         "formation_energy_per_atom": 0.050482344999998006,
-        "is_magnetic": false,
         "total_magnetization": 0.000295499999999,
         "is_stable": false,
-        "magnetic_ordering": null
+        "is_magnetic": false,
+        "magnetic_ordering": "NM",
+        "symmetry": "P2_1/m"
     },
     {
         "material_id": "mp-1182070",
@@ -489,10 +533,11 @@
         "energy_above_hull": 0.058095357499993006,
         "band_gap": 0.0,
         "formation_energy_per_atom": 0.058095357499993006,
-        "is_magnetic": false,
         "total_magnetization": 6.7999999999999976e-06,
         "is_stable": false,
-        "magnetic_ordering": null
+        "is_magnetic": false,
+        "magnetic_ordering": "NM",
+        "symmetry": "P2_1/m"
     },
     {
         "material_id": "mp-2647017",
@@ -500,10 +545,11 @@
         "energy_above_hull": 0.177572003999999,
         "band_gap": 0.244099999999999,
         "formation_energy_per_atom": 0.177572003999999,
-        "is_magnetic": false,
         "total_magnetization": 0.0,
         "is_stable": false,
-        "magnetic_ordering": null
+        "is_magnetic": false,
+        "magnetic_ordering": "NM",
+        "symmetry": "P2_1/m"
     },
     {
         "material_id": "mp-567379",
@@ -511,10 +557,11 @@
         "energy_above_hull": 0.062386567499999004,
         "band_gap": 0.0,
         "formation_energy_per_atom": 0.062386567499999004,
-        "is_magnetic": false,
         "total_magnetization": 2.4900000000000006e-05,
         "is_stable": false,
-        "magnetic_ordering": null
+        "is_magnetic": false,
+        "magnetic_ordering": "NM",
+        "symmetry": "P2_1/m"
     },
     {
         "material_id": "mp-567409",
@@ -522,10 +569,11 @@
         "energy_above_hull": 0.12089456250000101,
         "band_gap": 0.0,
         "formation_energy_per_atom": 0.12089456250000101,
-        "is_magnetic": false,
         "total_magnetization": 0.0008246999999990001,
         "is_stable": false,
-        "magnetic_ordering": null
+        "is_magnetic": false,
+        "magnetic_ordering": "NM",
+        "symmetry": "P2_1/m"
     },
     {
         "material_id": "mp-613989",
@@ -533,10 +581,11 @@
         "energy_above_hull": 0.008192166249997001,
         "band_gap": 0.0,
         "formation_energy_per_atom": 0.008192166249997001,
-        "is_magnetic": true,
         "total_magnetization": 1.8570459,
         "is_stable": false,
-        "magnetic_ordering": null
+        "is_magnetic": true,
+        "magnetic_ordering": "FiM",
+        "symmetry": "P2_1/m"
     },
     {
         "material_id": "mp-632286",
@@ -544,10 +593,11 @@
         "energy_above_hull": 0.05888531,
         "band_gap": 0.0,
         "formation_energy_per_atom": 0.05888531,
-        "is_magnetic": false,
         "total_magnetization": 0.0003521,
         "is_stable": false,
-        "magnetic_ordering": null
+        "is_magnetic": false,
+        "magnetic_ordering": "NM",
+        "symmetry": "P2_1/m"
     },
     {
         "material_id": "mp-42",
@@ -555,10 +605,11 @@
         "energy_above_hull": 7.669666665321984e-06,
         "band_gap": 0.0,
         "formation_energy_per_atom": 7.669666661058728e-06,
-        "is_magnetic": false,
         "total_magnetization": 1e-07,
         "is_stable": false,
-        "magnetic_ordering": null
+        "is_magnetic": false,
+        "magnetic_ordering": "NM",
+        "symmetry": "P-42_1m"
     },
     {
         "material_id": "mp-1009490",
@@ -566,10 +617,11 @@
         "energy_above_hull": 0.0017175900000000002,
         "band_gap": 1.426,
         "formation_energy_per_atom": 0.0017175900000000002,
-        "is_magnetic": true,
         "total_magnetization": 1.999999799999999,
         "is_stable": false,
-        "magnetic_ordering": null
+        "is_magnetic": true,
+        "magnetic_ordering": "FM",
+        "symmetry": "C2/m"
     },
     {
         "material_id": "mp-1059528",
@@ -577,10 +629,11 @@
         "energy_above_hull": 0.009701464999999,
         "band_gap": 0.0,
         "formation_energy_per_atom": 0.009701464999999,
-        "is_magnetic": false,
         "total_magnetization": 4e-07,
         "is_stable": false,
-        "magnetic_ordering": null
+        "is_magnetic": false,
+        "magnetic_ordering": "NM",
+        "symmetry": "C2/m"
     },
     {
         "material_id": "mp-1079297",
@@ -588,10 +641,11 @@
         "energy_above_hull": 0.08220610625000001,
         "band_gap": 0.2735,
         "formation_energy_per_atom": 0.08220610625000001,
-        "is_magnetic": false,
         "total_magnetization": 0.0,
         "is_stable": false,
-        "magnetic_ordering": null
+        "is_magnetic": false,
+        "magnetic_ordering": "NM",
+        "symmetry": "C2/m"
     },
     {
         "material_id": "mp-1080826",
@@ -599,10 +653,11 @@
         "energy_above_hull": 0.300915499999998,
         "band_gap": 3.4876,
         "formation_energy_per_atom": 0.300915499999998,
-        "is_magnetic": false,
         "total_magnetization": 0.0,
         "is_stable": false,
-        "magnetic_ordering": null
+        "is_magnetic": false,
+        "magnetic_ordering": "NM",
+        "symmetry": "C2/m"
     },
     {
         "material_id": "mp-1096915",
@@ -610,10 +665,11 @@
         "energy_above_hull": 0.042207972068965004,
         "band_gap": 0.0,
         "formation_energy_per_atom": 0.042207972068965004,
-        "is_magnetic": false,
         "total_magnetization": 7.340000000000001e-05,
         "is_stable": false,
-        "magnetic_ordering": null
+        "is_magnetic": false,
+        "magnetic_ordering": "NM",
+        "symmetry": "C2/m"
     },
     {
         "material_id": "mp-1104341",
@@ -621,10 +677,11 @@
         "energy_above_hull": 0.023213351428573,
         "band_gap": 0.0,
         "formation_energy_per_atom": 0.023213351428572,
-        "is_magnetic": false,
         "total_magnetization": 0.0433282,
         "is_stable": false,
-        "magnetic_ordering": null
+        "is_magnetic": false,
+        "magnetic_ordering": "NM",
+        "symmetry": "C2/m"
     },
     {
         "material_id": "mp-1179990",
@@ -632,10 +689,11 @@
         "energy_above_hull": 0.8763179616666661,
         "band_gap": 3.0938,
         "formation_energy_per_atom": 0.8763179616666661,
-        "is_magnetic": false,
         "total_magnetization": 0.0005369,
         "is_stable": false,
-        "magnetic_ordering": null
+        "is_magnetic": false,
+        "magnetic_ordering": "NM",
+        "symmetry": "C2/m"
     },
     {
         "material_id": "mp-1180307",
@@ -643,10 +701,11 @@
         "energy_above_hull": 0.39894528437499904,
         "band_gap": 0.0,
         "formation_energy_per_atom": 0.39894528437499904,
-        "is_magnetic": false,
         "total_magnetization": 7.060000000000002e-05,
         "is_stable": false,
-        "magnetic_ordering": null
+        "is_magnetic": false,
+        "magnetic_ordering": "NM",
+        "symmetry": "C2/m"
     },
     {
         "material_id": "mp-1182248",
@@ -654,10 +713,11 @@
         "energy_above_hull": 1.077316884999994,
         "band_gap": 1.5046,
         "formation_energy_per_atom": 1.077316884999994,
-        "is_magnetic": false,
         "total_magnetization": 0.0,
         "is_stable": false,
-        "magnetic_ordering": null
+        "is_magnetic": false,
+        "magnetic_ordering": "NM",
+        "symmetry": "C2/m"
     },
     {
         "material_id": "mp-1182425",
@@ -665,10 +725,11 @@
         "energy_above_hull": 0.482333581666666,
         "band_gap": 0.0,
         "formation_energy_per_atom": 0.482333581666666,
-        "is_magnetic": false,
         "total_magnetization": 0.0003072,
         "is_stable": false,
-        "magnetic_ordering": null
+        "is_magnetic": false,
+        "magnetic_ordering": "NM",
+        "symmetry": "C2/m"
     },
     {
         "material_id": "mp-1238808",
@@ -676,10 +737,11 @@
         "energy_above_hull": 0.11838149999999802,
         "band_gap": 0.0,
         "formation_energy_per_atom": 0.11838149999999802,
-        "is_magnetic": false,
         "total_magnetization": 0.0001991,
         "is_stable": false,
-        "magnetic_ordering": null
+        "is_magnetic": false,
+        "magnetic_ordering": "NM",
+        "symmetry": "C2/m"
     },
     {
         "material_id": "mp-12883",
@@ -687,10 +749,11 @@
         "energy_above_hull": 0.15457059702380901,
         "band_gap": 3.5354,
         "formation_energy_per_atom": 0.15457059702380901,
-        "is_magnetic": false,
         "total_magnetization": 0.0,
         "is_stable": false,
-        "magnetic_ordering": null
+        "is_magnetic": false,
+        "magnetic_ordering": "NM",
+        "symmetry": "C2/m"
     },
     {
         "material_id": "mp-12957",
@@ -698,10 +761,11 @@
         "energy_above_hull": 0.0,
         "band_gap": 1.0933,
         "formation_energy_per_atom": 0.0,
-        "is_magnetic": false,
         "total_magnetization": 8.599999999999999e-06,
         "is_stable": true,
-        "magnetic_ordering": null
+        "is_magnetic": false,
+        "magnetic_ordering": "NM",
+        "symmetry": "C2/m"
     },
     {
         "material_id": "mp-1524462",
@@ -709,10 +773,11 @@
         "energy_above_hull": 0.0,
         "band_gap": 2.7061,
         "formation_energy_per_atom": 0.0,
-        "is_magnetic": true,
         "total_magnetization": 0.0,
         "is_stable": true,
-        "magnetic_ordering": null
+        "is_magnetic": true,
+        "magnetic_ordering": "AFM",
+        "symmetry": "C2/m"
     },
     {
         "material_id": "mp-1947043",
@@ -720,10 +785,11 @@
         "energy_above_hull": 0.071962377499993,
         "band_gap": 0.08079999999999901,
         "formation_energy_per_atom": 0.071962377499993,
-        "is_magnetic": true,
         "total_magnetization": 0.0,
         "is_stable": false,
-        "magnetic_ordering": null
+        "is_magnetic": true,
+        "magnetic_ordering": "AFM",
+        "symmetry": "C2/m"
     },
     {
         "material_id": "mp-1974574",
@@ -731,10 +797,11 @@
         "energy_above_hull": 0.011028022499999,
         "band_gap": 0.0,
         "formation_energy_per_atom": 0.011028022499999,
-        "is_magnetic": false,
         "total_magnetization": 0.0,
         "is_stable": false,
-        "magnetic_ordering": null
+        "is_magnetic": false,
+        "magnetic_ordering": "NM",
+        "symmetry": "C2/m"
     },
     {
         "material_id": "mp-2204849",
@@ -742,10 +809,11 @@
         "energy_above_hull": 0.0035132812500000003,
         "band_gap": 2.720399999999999,
         "formation_energy_per_atom": 0.0035132812500000003,
-        "is_magnetic": true,
         "total_magnetization": 5e-07,
         "is_stable": false,
-        "magnetic_ordering": null
+        "is_magnetic": true,
+        "magnetic_ordering": "AFM",
+        "symmetry": "C2/m"
     },
     {
         "material_id": "mp-2206907",
@@ -753,10 +821,11 @@
         "energy_above_hull": 0.027979431250000002,
         "band_gap": 2.285,
         "formation_energy_per_atom": 0.027979431250000002,
-        "is_magnetic": true,
         "total_magnetization": 8.0000008,
         "is_stable": false,
-        "magnetic_ordering": null
+        "is_magnetic": true,
+        "magnetic_ordering": "FM",
+        "symmetry": "C2/m"
     },
     {
         "material_id": "mp-23157",
@@ -764,10 +833,11 @@
         "energy_above_hull": 0.050300225000000004,
         "band_gap": 0.0,
         "formation_energy_per_atom": 0.050300225000000004,
-        "is_magnetic": false,
         "total_magnetization": 0.0003114,
         "is_stable": false,
-        "magnetic_ordering": null
+        "is_magnetic": false,
+        "magnetic_ordering": "NM",
+        "symmetry": "C2/m"
     },
     {
         "material_id": "mp-3347313",
@@ -775,10 +845,11 @@
         "energy_above_hull": 0.0,
         "band_gap": 1.376199999999999,
         "formation_energy_per_atom": 0.0,
-        "is_magnetic": false,
         "total_magnetization": 0.0,
         "is_stable": true,
-        "magnetic_ordering": null
+        "is_magnetic": false,
+        "magnetic_ordering": "NM",
+        "symmetry": "C2/m"
     },
     {
         "material_id": "mp-542606",
@@ -786,10 +857,11 @@
         "energy_above_hull": 0.7908879723529331,
         "band_gap": 0.0,
         "formation_energy_per_atom": 0.7908879723529341,
-        "is_magnetic": true,
         "total_magnetization": 29.4777296,
         "is_stable": false,
-        "magnetic_ordering": null
+        "is_magnetic": true,
+        "magnetic_ordering": "FiM",
+        "symmetry": "C2/m"
     },
     {
         "material_id": "mp-561367",
@@ -797,10 +869,11 @@
         "energy_above_hull": 0.00299408,
         "band_gap": 2.3942,
         "formation_energy_per_atom": 0.00299408,
-        "is_magnetic": false,
         "total_magnetization": 0.0,
         "is_stable": false,
-        "magnetic_ordering": null
+        "is_magnetic": false,
+        "magnetic_ordering": "NM",
+        "symmetry": "C2/m"
     },
     {
         "material_id": "mp-567332",
@@ -808,10 +881,11 @@
         "energy_above_hull": 0.0038607150000010003,
         "band_gap": 0.0,
         "formation_energy_per_atom": 0.0038607150000010003,
-        "is_magnetic": false,
         "total_magnetization": 1.4e-06,
         "is_stable": false,
-        "magnetic_ordering": null
+        "is_magnetic": false,
+        "magnetic_ordering": "NM",
+        "symmetry": "C2/m"
     },
     {
         "material_id": "mp-569360",
@@ -819,10 +893,11 @@
         "energy_above_hull": 0.006275719166666,
         "band_gap": 0.09670000000000001,
         "formation_energy_per_atom": 0.006275719166666,
-        "is_magnetic": false,
         "total_magnetization": 0.0,
         "is_stable": false,
-        "magnetic_ordering": null
+        "is_magnetic": false,
+        "magnetic_ordering": "NM",
+        "symmetry": "C2/m"
     },
     {
         "material_id": "mp-570459",
@@ -830,10 +905,11 @@
         "energy_above_hull": 0.07254629999999901,
         "band_gap": 0.0,
         "formation_energy_per_atom": 0.07254629999999901,
-        "is_magnetic": false,
         "total_magnetization": 0.0,
         "is_stable": false,
-        "magnetic_ordering": null
+        "is_magnetic": false,
+        "magnetic_ordering": "NM",
+        "symmetry": "C2/m"
     },
     {
         "material_id": "mp-611836",
@@ -841,10 +917,11 @@
         "energy_above_hull": 0.009970109999999002,
         "band_gap": 1.314299999999999,
         "formation_energy_per_atom": 0.009970109999999002,
-        "is_magnetic": true,
         "total_magnetization": 2.0000002,
         "is_stable": false,
-        "magnetic_ordering": null
+        "is_magnetic": true,
+        "magnetic_ordering": "FM",
+        "symmetry": "C2/m"
     },
     {
         "material_id": "mp-632329",
@@ -852,10 +929,11 @@
         "energy_above_hull": 0.0141120575,
         "band_gap": 0.0,
         "formation_energy_per_atom": 0.0141120575,
-        "is_magnetic": false,
         "total_magnetization": 7.9e-06,
         "is_stable": false,
-        "magnetic_ordering": null
+        "is_magnetic": false,
+        "magnetic_ordering": "NM",
+        "symmetry": "C2/m"
     },
     {
         "material_id": "mp-1096992",
@@ -863,10 +941,11 @@
         "energy_above_hull": 0.028226317499999,
         "band_gap": 0.0,
         "formation_energy_per_atom": 0.028226317499999,
-        "is_magnetic": false,
         "total_magnetization": 0.0001239,
         "is_stable": false,
-        "magnetic_ordering": null
+        "is_magnetic": false,
+        "magnetic_ordering": "NM",
+        "symmetry": "I-42d"
     },
     {
         "material_id": "mp-1056027",
@@ -874,10 +953,11 @@
         "energy_above_hull": 0.496229587,
         "band_gap": 0.0,
         "formation_energy_per_atom": 0.496229587,
-        "is_magnetic": false,
         "total_magnetization": 7e-07,
         "is_stable": false,
-        "magnetic_ordering": null
+        "is_magnetic": false,
+        "magnetic_ordering": "NM",
+        "symmetry": "P4/mmm"
     },
     {
         "material_id": "mp-1056059",
@@ -885,10 +965,11 @@
         "energy_above_hull": 1.557554774999999,
         "band_gap": 0.0,
         "formation_energy_per_atom": 1.557554774999999,
-        "is_magnetic": false,
         "total_magnetization": 1e-07,
         "is_stable": false,
-        "magnetic_ordering": null
+        "is_magnetic": false,
+        "magnetic_ordering": "NM",
+        "symmetry": "P4/mmm"
     },
     {
         "material_id": "mp-1065697",
@@ -896,10 +977,11 @@
         "energy_above_hull": 1.579331004999999,
         "band_gap": 0.0,
         "formation_energy_per_atom": 1.579331004999999,
-        "is_magnetic": false,
         "total_magnetization": 0.0024843,
         "is_stable": false,
-        "magnetic_ordering": null
+        "is_magnetic": false,
+        "magnetic_ordering": "NM",
+        "symmetry": "P4/mmm"
     },
     {
         "material_id": "mp-1096977",
@@ -907,10 +989,11 @@
         "energy_above_hull": 0.40012652125000003,
         "band_gap": 0.0,
         "formation_energy_per_atom": 0.40012652125000003,
-        "is_magnetic": false,
         "total_magnetization": 0.0,
         "is_stable": false,
-        "magnetic_ordering": null
+        "is_magnetic": false,
+        "magnetic_ordering": "NM",
+        "symmetry": "P4/mmm"
     },
     {
         "material_id": "mp-1179325",
@@ -918,10 +1001,11 @@
         "energy_above_hull": 0.39972050333333403,
         "band_gap": 0.0,
         "formation_energy_per_atom": 0.39972050333333403,
-        "is_magnetic": false,
         "total_magnetization": 0.0020406,
         "is_stable": false,
-        "magnetic_ordering": null
+        "is_magnetic": false,
+        "magnetic_ordering": "NM",
+        "symmetry": "P4/mmm"
     },
     {
         "material_id": "mp-1180991",
@@ -929,10 +1013,11 @@
         "energy_above_hull": 0.118525908249999,
         "band_gap": 0.0,
         "formation_energy_per_atom": 0.118525908249999,
-        "is_magnetic": false,
         "total_magnetization": 0.1908127,
         "is_stable": false,
-        "magnetic_ordering": null
+        "is_magnetic": false,
+        "magnetic_ordering": "NM",
+        "symmetry": "P4/mmm"
     },
     {
         "material_id": "mp-1182332",
@@ -940,10 +1025,11 @@
         "energy_above_hull": 1.090449800000001,
         "band_gap": 0.0,
         "formation_energy_per_atom": 1.090449800000001,
-        "is_magnetic": false,
         "total_magnetization": 0.3295625,
         "is_stable": false,
-        "magnetic_ordering": null
+        "is_magnetic": false,
+        "magnetic_ordering": "NM",
+        "symmetry": "P4/mmm"
     },
     {
         "material_id": "mp-1227541",
@@ -951,10 +1037,11 @@
         "energy_above_hull": 0.9729114900000011,
         "band_gap": 0.0,
         "formation_energy_per_atom": 0.9729114900000011,
-        "is_magnetic": false,
         "total_magnetization": 0.0005871,
         "is_stable": false,
-        "magnetic_ordering": null
+        "is_magnetic": false,
+        "magnetic_ordering": "NM",
+        "symmetry": "P4/mmm"
     },
     {
         "material_id": "mp-1977763",
@@ -962,10 +1049,11 @@
         "energy_above_hull": 0.35921323999999905,
         "band_gap": 0.0,
         "formation_energy_per_atom": 0.35921323999999905,
-        "is_magnetic": false,
         "total_magnetization": 0.0017833999999990002,
         "is_stable": false,
-        "magnetic_ordering": null
+        "is_magnetic": false,
+        "magnetic_ordering": "NM",
+        "symmetry": "P4/mmm"
     },
     {
         "material_id": "mp-1076923",
@@ -973,10 +1061,11 @@
         "energy_above_hull": 5.146382562500001,
         "band_gap": 0.0,
         "formation_energy_per_atom": 5.146382562500001,
-        "is_magnetic": true,
         "total_magnetization": 5.2043816,
         "is_stable": false,
-        "magnetic_ordering": null
+        "is_magnetic": true,
+        "magnetic_ordering": "FM",
+        "symmetry": "P4/mbm"
     },
     {
         "material_id": "mp-1064244",
@@ -984,10 +1073,11 @@
         "energy_above_hull": 0.11248714000000001,
         "band_gap": 0.0,
         "formation_energy_per_atom": 0.11248714000000001,
-        "is_magnetic": false,
         "total_magnetization": 0.0881651,
         "is_stable": false,
-        "magnetic_ordering": null
+        "is_magnetic": false,
+        "magnetic_ordering": "NM",
+        "symmetry": "P4/nmm"
     },
     {
         "material_id": "mp-7098",
@@ -995,10 +1085,11 @@
         "energy_above_hull": 0.09617646374999801,
         "band_gap": 0.0,
         "formation_energy_per_atom": 0.09617646374999801,
-        "is_magnetic": false,
         "total_magnetization": 7e-07,
         "is_stable": false,
-        "magnetic_ordering": null
+        "is_magnetic": false,
+        "magnetic_ordering": "NM",
+        "symmetry": "P4/nmm"
     },
     {
         "material_id": "mp-723897",
@@ -1006,10 +1097,11 @@
         "energy_above_hull": 3.518999916666667,
         "band_gap": 2.1942,
         "formation_energy_per_atom": 3.518999916666667,
-        "is_magnetic": true,
         "total_magnetization": 11.999938,
         "is_stable": false,
-        "magnetic_ordering": null
+        "is_magnetic": true,
+        "magnetic_ordering": "FM",
+        "symmetry": "P4/nmm"
     },
     {
         "material_id": "mp-1180036",
@@ -1017,10 +1109,11 @@
         "energy_above_hull": 0.029974092499999,
         "band_gap": 0.46429999999999905,
         "formation_energy_per_atom": 0.029974092499999,
-        "is_magnetic": false,
         "total_magnetization": 0.0,
         "is_stable": false,
-        "magnetic_ordering": null
+        "is_magnetic": false,
+        "magnetic_ordering": "NM",
+        "symmetry": "P2/c"
     },
     {
         "material_id": "mp-1190217",
@@ -1028,10 +1121,11 @@
         "energy_above_hull": 0.47885933499999905,
         "band_gap": 0.0,
         "formation_energy_per_atom": 0.47885933499999905,
-        "is_magnetic": false,
         "total_magnetization": 0.0005094,
         "is_stable": false,
-        "magnetic_ordering": null
+        "is_magnetic": false,
+        "magnetic_ordering": "NM",
+        "symmetry": "P2/c"
     },
     {
         "material_id": "mp-568348",
@@ -1039,10 +1133,11 @@
         "energy_above_hull": 0.0,
         "band_gap": 1.8454000000000002,
         "formation_energy_per_atom": 0.0,
-        "is_magnetic": false,
         "total_magnetization": 0.0,
         "is_stable": true,
-        "magnetic_ordering": null
+        "is_magnetic": false,
+        "magnetic_ordering": "NM",
+        "symmetry": "P2/c"
     },
     {
         "material_id": "mp-729184",
@@ -1050,10 +1145,11 @@
         "energy_above_hull": 1.498615078583333,
         "band_gap": 0.5081,
         "formation_energy_per_atom": 1.498615078583334,
-        "is_magnetic": false,
         "total_magnetization": 0.0007432,
         "is_stable": false,
-        "magnetic_ordering": null
+        "is_magnetic": false,
+        "magnetic_ordering": "NM",
+        "symmetry": "P2/c"
     },
     {
         "material_id": "mp-96",
@@ -1061,10 +1157,11 @@
         "energy_above_hull": 0.0009478456250010001,
         "band_gap": 2.748,
         "formation_energy_per_atom": 0.0009478456250010001,
-        "is_magnetic": false,
         "total_magnetization": 0.0,
         "is_stable": false,
-        "magnetic_ordering": null
+        "is_magnetic": false,
+        "magnetic_ordering": "NM",
+        "symmetry": "P2/c"
     },
     {
         "material_id": "mp-22046",
@@ -1072,10 +1169,11 @@
         "energy_above_hull": 0.09513511709999901,
         "band_gap": 0.0,
         "formation_energy_per_atom": 0.09513511709999901,
-        "is_magnetic": false,
         "total_magnetization": 2e-07,
         "is_stable": false,
-        "magnetic_ordering": null
+        "is_magnetic": false,
+        "magnetic_ordering": "NM",
+        "symmetry": "P4_2/nnm"
     },
     {
         "material_id": "mp-570316",
@@ -1083,10 +1181,11 @@
         "energy_above_hull": 0.15526669916666602,
         "band_gap": 0.0,
         "formation_energy_per_atom": 0.15526669916666602,
-        "is_magnetic": false,
         "total_magnetization": 1.6e-06,
         "is_stable": false,
-        "magnetic_ordering": null
+        "is_magnetic": false,
+        "magnetic_ordering": "NM",
+        "symmetry": "P4_2/nnm"
     },
     {
         "material_id": "mp-570602",
@@ -1094,9 +1193,10 @@
         "energy_above_hull": 0.22346854563333302,
         "band_gap": 0.0,
         "formation_energy_per_atom": 0.22346854563333401,
-        "is_magnetic": true,
         "total_magnetization": 4.1e-06,
         "is_stable": false,
-        "magnetic_ordering": null
+        "is_magnetic": true,
+        "magnetic_ordering": "FM",
+        "symmetry": "P4_2/nnm"
     }
 ]

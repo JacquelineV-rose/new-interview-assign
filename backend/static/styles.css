@@ -1,29 +1,33 @@
 body {
     font-family: Arial, sans-serif;
-    margin: 20px;
-    background: #f9f9f9;
+    margin: 40px;
+
+    background: #242222;
+    color: white;
 }
 
 h1 {
     text-align: center;
+    color: white;
+    margin-bottom: 30px;
 }
 
 table {
     width: 100%;
-    border-collapse: collapse;
-    margin-top: 20px;
-    background: white;
+    border-collapse: separate;
+    border-spacing: 0 12px;
+    background-color: #3b3b3b;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 th, td {
-    padding: 10px;
+    padding: 15px 20px;
     text-align: left;
-    border-bottom: 1px solid #ddd;
+    border-bottom: 1px solid #201f1fd6;
 }
 
-th {
-    background-color: #f0f0f0;
+#th {
+    background-color: #242424;
 }
 
 pre {
@@ -35,7 +39,7 @@ pre {
 
 button {
   padding: 10px 20px;
-  background: #0077cc;
+  background: #525252;
   color: white;
   border: none;
   cursor: pointer;
@@ -43,5 +47,5 @@ button {
 }
 
 button:hover {
-  background: #005fa3;
+  background: #ffffff;
 }

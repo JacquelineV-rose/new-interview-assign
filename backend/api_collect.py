@@ -10,13 +10,15 @@ FIELDS = [
     "formula_pretty", 
     "energy_above_hull", 
     "band_gap", 
-    "formation_energy_per_atom", 
-    "is_magnetic", 
+    "formation_energy_per_atom",  
     "total_magnetization",
-    "is_stable"
+    "is_stable",
+    "is_magnetic",
+    "ordering",
+    "symmetry"
 ]
 
-with MPRester(os.getenv("MP_API_KEY")) as mpr:
+with MPRester(os.getenv("api_code")) as mpr:
     docs_data = mpr.materials.summary.search(fields=FIELDS, num_chunks=1, chunk_size=100)
 
 
@@ -29,12 +31,14 @@ for d in docs_data:
         "energy_above_hull": d.energy_above_hull,
         "band_gap": d.band_gap,
         "formation_energy_per_atom": d.formation_energy_per_atom,
-        "is_magnetic": d.is_magnetic,
         "total_magnetization": d.total_magnetization,
         "is_stable": d.is_stable,
-        "magnetic_ordering": (
-            d.magnetism.ordering if hasattr(d, 'magnetism') and d.magnetism else None
-        ),
+        "is_magnetic": d.is_magnetic,
+        "magnetic_ordering": getattr(d, "ordering", "~~"),
+        #Space group?
+        "symmetry": d.symmetry.symbol if d.symmetry else "—"
+
+
     }
     docs.append(doc)
 

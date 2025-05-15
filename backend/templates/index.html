@@ -6,7 +6,7 @@
   <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
 </head>
 <body>
-  <h1>Material Query Results</h1>
+  <h1>Material Query</h1>
   <table id="materials-table">
     <thead>
       <tr>
@@ -15,9 +15,10 @@
         <th>Energy Above Hull</th>
         <th>Band Gap</th>
         <th>Formation Energy</th>
-        <th>Is Magnetic</th>
         <th>Total Magnetization</th>
+        <th>Space Group</th>
         <th>Is Stable</th>
+        <th>Is Magnetic</th>
         <th>Magnetic Ordering</th>
       </tr>
     </thead>
@@ -37,9 +38,10 @@
             <td>${mat.energy_above_hull}</td>
             <td>${mat.band_gap}</td>
             <td>${mat.formation_energy_per_atom}</td>
-            <td>${mat.is_magnetic}</td>
             <td>${mat.total_magnetization}</td>
+            <td>${mat.symmetry}</td>
             <td>${mat.is_stable}</td>
+            <th>${mat.is_magnetic}</td>
             <td>${mat.magnetic_ordering || '—'}</td>
           `;
           tableBody.appendChild(row);
