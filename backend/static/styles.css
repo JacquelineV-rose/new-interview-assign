@@ -26,26 +26,39 @@ th, td {
     border-bottom: 1px solid #201f1fd6;
 }
 
-#th {
+th {
     background-color: #242424;
 }
 
 pre {
-  background: #f0f0f0;
-  padding: 1rem;
-  overflow: auto;
-  max-height: 500px;
+    background: #f0f0f0;
+    padding: 1rem;
+    overflow: auto;
+    max-height: 500px;
+    color: black;
 }
 
 button {
-  padding: 10px 20px;
-  background: #525252;
-  color: white;
-  border: none;
-  cursor: pointer;
-  border-radius: 5px;
+    padding: 10px 20px;
+    background: #525252;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background 0.3s ease;
 }
 
 button:hover {
-  background: #ffffff;
+    background: #ffffff;
+    color: #242222;
+}
+
+/* Add styles for links inside table if you have clickable IDs */
+a {
+    color: #aad4ff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
 }
