@@ -13,41 +13,42 @@
   <a href="/">← Back to Table</a>
 
   <script>
-    fetch('/api/materials')
-      .then(response => response.json())
-      .then(data => {
-        const materialId = window.location.pathname.split('/').pop();
-        const material = data.find(m => m.material_id === materialId);
+    // Get the material ID from the URL
+    const materialId = window.location.pathname.split('/').pop();
 
-        if (!material) {
-          document.getElementById('details').innerText = 'Material not found.';
+    // Load materials and find the one we want
+    fetch('/api/materials')
+      .then(res => res.json())
+      .then(data => {
+        const mat = data.find(m => m.material_id === materialId);
+
+        if (!mat) {
+          document.getElementById('details').innerText = 'Material not found';
           return;
         }
 
         const detailsDiv = document.getElementById('details');
         const table = document.createElement('table');
 
-        for (const key in material) {
+        for (let key in mat) {
           const row = document.createElement('tr');
-          row.innerHTML = `<td><strong>${key}</strong></td><td>${material[key]}</td>`;
+          const val = mat[key] !== null ? mat[key] : '-';
+          row.innerHTML = `<td><b>${key}</b></td><td>${val}</td>`;
           table.appendChild(row);
         }
 
         detailsDiv.appendChild(table);
 
-        document.getElementById('downloadBtn').addEventListener('click', () => {
-          const blob = new Blob([JSON.stringify(material, null, 2)], { type: 'application/json' });
+        // Download button logic
+        document.getElementById('downloadBtn').onclick = () => {
+          const blob = new Blob([JSON.stringify(mat, null, 2)], { type: 'application/json' });
           const url = URL.createObjectURL(blob);
           const a = document.createElement('a');
           a.href = url;
-          a.download = `${material.material_id}.json`;
+          a.download = `${mat.material_id}.json`;
           a.click();
           URL.revokeObjectURL(url);
-        });
-      })
-      .catch(error => {
-        console.error('Error loading material details:', error);
-        document.getElementById('details').innerText = 'Error loading material details.';
+        };
       });
   </script>
 </body>

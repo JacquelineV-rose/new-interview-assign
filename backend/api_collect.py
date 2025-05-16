@@ -4,11 +4,9 @@ from dotenv import load_dotenv
 from mp_api.client import MPRester
 from tqdm import tqdm
 
-# Load API key from .env
 load_dotenv()
 api_key = os.getenv("api_code")
 
-# Fields to retrieve
 FIELDS = [
     "material_id",
     "formula_pretty",
@@ -20,38 +18,35 @@ FIELDS = [
     "total_magnetization"
 ]
 
-# Initialize API client
 all_materials = []
 
 with MPRester(api_key) as mpr:
-    print("Querying Materials Project...")
+    print("Getting materials...")
 
-    # Use paginator generator
     results = mpr.materials.summary.search(
         fields=FIELDS,
-        all_fields=False,  # only return selected fields
-        chunk_size=500  # you can try 1000, but 500 is safer for rate limits
+        all_fields=False,
+        chunk_size=500
     )
 
-    # Collect all results
-    for mat in tqdm(results, desc="Collecting materials"):
+    for mat in tqdm(results, desc="Loading"):
         all_materials.append({
             "material_id": mat.material_id,
             "pretty_formula": mat.formula_pretty,
             "energy_above_hull": mat.energy_above_hull,
-            "space_group": mat.symmetry.symbol if mat.symmetry else "—",
+            "space_group": mat.symmetry.symbol if mat.symmetry else "-",
             "band_gap": mat.band_gap,
             "formation_energy_per_atom": mat.formation_energy_per_atom,
             "magnetic_ordering": "Magnetic" if mat.is_magnetic else "Non-magnetic",
             "total_magnetization": mat.total_magnetization,
-            "experimentally_observed": False  # Placeholder
+            "experimentally_observed": False  # placeholder for now
         })
 
 # Save to JSON
-output_path = os.path.join(os.path.dirname(__file__), "data", "api_result.json")
-os.makedirs(os.path.dirname(output_path), exist_ok=True)
+out_file = os.path.join("data", "api_result.json")
+os.makedirs("data", exist_ok=True)
 
-with open(output_path, "w") as f:
-    json.dump(all_materials, f, indent=4)
+with open(out_file, "w") as f:
+    json.dump(all_materials, f, indent=2)
 
-print(f"Saved {len(all_materials)} materials to {output_path}")
+print(f"Saved {len(all_materials)} materials to {out_file}")

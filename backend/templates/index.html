@@ -8,11 +8,7 @@
 <body>
   <h1>Material Query</h1>
 
-  <input
-    type="text"
-    id="searchInput"
-    autocomplete="off"
-  />
+  <input type="text" id="searchInput" placeholder="Search by formula or ID" />
   <button onclick="performSearch()">Search</button>
   <button onclick="resetTable()">Reset</button>
 
@@ -24,12 +20,12 @@
         <th>Energy Above Hull</th>
         <th>Band Gap</th>
         <th>Formation Energy</th>
-        <th>Total Magnetization</th>
+        <th>Magnetization</th>
         <th>Space Group</th>
-        <th>Is Stable</th>
-        <th>Is Magnetic</th>
-        <th>Magnetic Ordering</th>
-        <th>Experimentally Observed</th>
+        <th>Stable</th>
+        <th>Magnetic</th>
+        <th>Ordering</th>
+        <th>Experimental</th>
       </tr>
     </thead>
     <tbody></tbody>
@@ -38,66 +34,96 @@
   <script>
     let allMaterials = [];
 
- 
-    fetch('/api/materials')
-      .then((response) => response.json())
-      .then((data) => {
-        allMaterials = data;
-        displayMaterials(allMaterials);
-      })
-      .catch((err) => console.error('Failed to load materials:', err));
 
-    function displayMaterials(materials) {
-      const tableBody = document.querySelector('#materials-table tbody');
-      tableBody.innerHTML = '';
+
+
+
+
+
+    fetch('/api/materials')
+      .then(res => res.json())
+      .then(data => {
+        allMaterials = data;
+        display(allMaterials);
+      });
+
+
+
+
+
+    function display(materials) {
+      const tbody = document.querySelector('#materials-table tbody');
+      tbody.innerHTML = '';
+
+
+
       if (materials.length === 0) {
-        tableBody.innerHTML = '<tr><td colspan="11">No materials found.</td></tr>';
+        tbody.innerHTML = '<tr><td colspan="11">No results found</td></tr>';
         return;
       }
 
-      materials.forEach((mat) => {
-        const isStable = mat.energy_above_hull < 0.05 ? 'Yes' : 'No';
-        const isMagnetic = mat.total_magnetization > 0 ? 'Yes' : 'No';
 
-        const row = document.createElement('tr');
-        row.innerHTML = `
-          <td><a href="/material/${mat.material_id}">${mat.material_id}</a></td>
-          <td>${mat.pretty_formula}</td>
-          <td>${mat.energy_above_hull.toFixed(3)}</td>
-          <td>${mat.band_gap.toFixed(3)}</td>
-          <td>${mat.formation_energy_per_atom.toFixed(3)}</td>
-          <td>${mat.total_magnetization.toFixed(3)}</td>
-          <td>${mat.space_group}</td>
-          <td>${isStable}</td>
-          <td>${isMagnetic}</td>
-          <td>${mat.magnetic_ordering || '—'}</td>
-          <td>${mat.experimentally_observed ? 'Yes' : 'No'}</td>
+
+
+      materials.forEach(m => {
+        const tr = document.createElement('tr');
+
+        const stable = m.energy_above_hull < 0.05 ? 'Yes' : 'No';
+        const magnetic = m.total_magnetization > 0 ? 'Yes' : 'No';
+        const ordering = m.magnetic_ordering ? m.magnetic_ordering : '-';
+        const experimental = m.experimental_observed ? 'Yes' : 'No';
+
+
+
+
+        tr.innerHTML = `
+          <td><a href="/material/${m.material_id}">${m.material_id}</a></td>
+          <td>${m.pretty_formula}</td>
+          <td>${m.energy_above_hull}</td>
+          <td>${m.band_gap}</td>
+          <td>${m.formation_energy_per_atom}</td>
+          <td>${m.total_magnetization}</td>
+          <td>${m.space_group}</td>
+          <td>${stable}</td>
+          <td>${magnetic}</td>
+          <td>${ordering}</td>
+          <td>${experimental}</td>
         `;
-        tableBody.appendChild(row);
+
+
+
+
+        tbody.appendChild(tr);
       });
     }
+
+
+
 
     function performSearch() {
-      const query = document.getElementById('searchInput').value.trim().toLowerCase();
+      const query = document.getElementById('searchInput').value.toLowerCase();
+
+
+
+      
       if (!query) {
-        displayMaterials(allMaterials);
+        display(allMaterials);
         return;
       }
 
-      const filtered = allMaterials.filter((mat) => {
-        return (
-          (mat.pretty_formula && mat.pretty_formula.toLowerCase().includes(query)) ||
-          (mat.magnetic_ordering && mat.magnetic_ordering.toLowerCase().includes(query)) ||
-          (mat.material_id && mat.material_id.toLowerCase().includes(query))
-        );
-      });
 
-      displayMaterials(filtered);
+
+      const filtered = allMaterials.filter(m => (m.pretty_formula && m.pretty_formula.toLowerCase().includes(query)) || (m.material_id && m.material_id.toLowerCase().includes(query)) || (m.magnetic_ordering && m.magnetic_ordering.toLowerCase().includes(query)));
+
+      display(filtered);
     }
-  
+
+
+
+
     function resetTable() {
       document.getElementById('searchInput').value = '';
-      displayMaterials(allMaterials);
+      display(allMaterials);
     }
   </script>
 </body>
